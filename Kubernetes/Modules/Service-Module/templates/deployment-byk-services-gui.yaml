@@ -140,7 +140,7 @@ spec:
         #- name: services-dsl
         #  emptyDir: {}
 #       #   persistentVolumeClaim:
-#       #     claimName: pvc-{{ namespace }}-services-dsl
+#       #     claimName: pvc-{{ .Values.placeholder.namespace }}-services-dsl
         - name: dsl
           emptyDir: {}
 
