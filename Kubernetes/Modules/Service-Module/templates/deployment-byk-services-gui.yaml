@@ -137,10 +137,6 @@ spec:
               memory: "{{ .Values.resources.limits.memory }}"
               cpu: "{{ .Values.resources.limits.cpu }}"
       volumes:
-        #- name: services-dsl
-        #  emptyDir: {}
-#       #   persistentVolumeClaim:
-#       #     claimName: pvc-{{ .Values.placeholder.namespace }}-services-dsl
         - name: dsl
           emptyDir: {}
 
