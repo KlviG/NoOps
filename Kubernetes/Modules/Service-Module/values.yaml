@@ -108,4 +108,4 @@ azuriteenv:
 placeholder:
   namespace:
   MultiDomainHidden: CHANGEME 
-  SERVICE.MODULE.HIDDEN: CHANGEME 
+  ServiceModuleHidden: CHANGEME 
