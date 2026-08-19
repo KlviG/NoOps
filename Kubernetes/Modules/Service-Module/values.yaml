@@ -106,6 +106,5 @@ azuriteenv:
   azureConnectionString: "DefaultEndpointsProtocol=CHANGEME"
 
 placeholder:
-  namespace:
   MultiDomainHidden: CHANGEME 
   ServiceModuleHidden: CHANGEME 
